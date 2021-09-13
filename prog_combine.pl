@@ -149,12 +149,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -224,12 +218,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -246,6 +234,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -294,12 +294,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -369,12 +363,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -391,6 +379,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -439,12 +439,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -514,12 +508,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -536,6 +524,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -584,12 +584,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -659,12 +653,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -681,6 +669,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -729,12 +729,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -804,12 +798,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -827,6 +815,18 @@ foreach my $configdata ( @configdata ) {
 						}
 					}
 					
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
+
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
 					my $episystem   = $programme->{'episode-num'}->{system};
@@ -874,12 +874,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -949,12 +943,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -971,6 +959,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -1019,12 +1019,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -1094,12 +1088,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -1117,6 +1105,18 @@ foreach my $configdata ( @configdata ) {
 						}
 					}
 					
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
+
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
 					my $episystem   = $programme->{'episode-num'}->{system};
@@ -1164,12 +1164,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -1239,12 +1233,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -1261,6 +1249,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -1309,12 +1309,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -1384,12 +1378,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -1406,6 +1394,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -1454,12 +1454,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -1529,12 +1523,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -1551,6 +1539,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -1599,12 +1599,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -1674,12 +1668,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -1696,6 +1684,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -1744,12 +1744,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -1819,12 +1813,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -1841,6 +1829,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -1889,12 +1889,6 @@ foreach my $configdata ( @configdata ) {
 					# START + STOP + CHANNEL
 					print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
 					
-					# ICON
-					my $icon        = $programme->{icon}->{src};
-					if( defined $icon ) {
-						print "  <icon src=\"" . $icon . "\" />\n";
-					}
-					
 					# TITLE
 					my $title       = $programme->{title}->{_content};
 					my $title_lang  = $programme->{title}->{lang};
@@ -1964,12 +1958,6 @@ foreach my $configdata ( @configdata ) {
 						print "  <date>" . $date . "</date>\n";
 					}
 					
-					# COUNTRY
-					my $country     = $programme->{country};
-					if( defined $country ) {
-						print "  <country>" . $country . "</country>\n";
-					}
-					
 					# CATEGORY
 					my $category    = $programme->{category};
 					if( defined $category ) {
@@ -1986,6 +1974,18 @@ foreach my $configdata ( @configdata ) {
 							}
 						}
 					}
+
+                                        # ICON
+                                        my $icon        = $programme->{icon}->{src};
+                                        if( defined $icon ) {
+                                                print "  <icon src=\"" . $icon . "\" />\n";
+                                        }
+
+                                        # COUNTRY
+                                        my $country     = $programme->{country};
+                                        if( defined $country ) {
+                                                print "  <country>" . $country . "</country>\n";
+                                        }
 					
 					# EPISODE
 					my $episode     = $programme->{'episode-num'}->{_content};
@@ -2031,12 +2031,6 @@ foreach my $configdata ( @configdata ) {
 			
 				# START + STOP + CHANNEL
 				print "<programme start=\"" . $start . "\" stop=\"" . $stop . "\" channel=\"" . $ch . "\">\n";
-				
-				# ICON
-				my $icon        = $programme->{icon}->{src};
-				if( defined $icon ) {
-					print "  <icon src=\"" . $icon . "\" />\n";
-				}
 				
 				# TITLE
 				my $title       = $programme->{title}->{_content};
@@ -2107,12 +2101,6 @@ foreach my $configdata ( @configdata ) {
 					print "  <date>" . $date . "</date>\n";
 				}
 				
-				# COUNTRY
-				my $country     = $programme->{country};
-				if( defined $country ) {
-					print "  <country>" . $country . "</country>\n";
-				}
-				
 				# CATEGORY
 				my $category    = $programme->{category};
 				if( defined $category ) {
@@ -2129,6 +2117,17 @@ foreach my $configdata ( @configdata ) {
 						}
 					}
 				}
+                                # ICON
+                                my $icon        = $programme->{icon}->{src};
+                                if( defined $icon ) {
+                                        print "  <icon src=\"" . $icon . "\" />\n";
+                                }
+
+                                # COUNTRY
+                                my $country     = $programme->{country};
+                                if( defined $country ) {
+                                        print "  <country>" . $country . "</country>\n";
+                                }
 				
 				# EPISODE
 				my $episode     = $programme->{'episode-num'}->{_content};
