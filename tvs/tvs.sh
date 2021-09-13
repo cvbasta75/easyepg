@@ -75,7 +75,7 @@ echo '}' >> /tmp/chlist
 
 ######################################
 # Dirty Workaround until TVS fix their Channellist
-curl -s https://raw.githubusercontent.com/sunsettrack4/config_files/master/chlist_hack_tvs.json > /tmp/chlist
+curl -s https://raw.githubusercontent.com/cvbasta75/config_files/master/chlist_hack_tvs.json > /tmp/chlist
 #######################################
 
 printf "\rChecking manifest files... "
@@ -232,12 +232,12 @@ cp chlist /tmp/chlist
 
 ######################################
 # Dirty Workaround until TVS fix their Channellist
-curl -s https://raw.githubusercontent.com/sunsettrack4/config_files/master/chlist_hack_tvs.json > /tmp/chlist
+curl -s https://raw.githubusercontent.com/cvbasta75/config_files/master/chlist_hack_tvs.json > /tmp/chlist
 cp /tmp/chlist chlist
 #######################################
 
-curl -s https://raw.githubusercontent.com/sunsettrack4/config_files/master/tvs_channels.json > tvs_channels.json
-curl -s https://raw.githubusercontent.com/sunsettrack4/config_files/master/tvs_genres.json > tvs_genres.json
+curl -s https://raw.githubusercontent.com/cvbasta75/config_files/master/tvs_channels.json > tvs_channels.json
+curl -s https://raw.githubusercontent.com/cvbasta75/config_files/master/tvs_genres.json > tvs_genres.json
 
 # CONVERT JSON INTO XML: CHANNELS
 printf "\rConverting CHANNEL JSON file into XML format...      "
