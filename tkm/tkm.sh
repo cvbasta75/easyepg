@@ -228,8 +228,8 @@ rm workfile chlist 2> /dev/null
 printf "\rRetrieving channel list and config files...          "
 curl -s 'http://127.0.0.1:8000/web_magentatv_de.php?type=2' > /tmp/chlist
 jq '.' /tmp/chlist > chlist
-curl -s https://raw.githubusercontent.com/sunsettrack4/config_files/master/tkm_channels.json > tkm_channels.json
-curl -s https://raw.githubusercontent.com/sunsettrack4/config_files/master/tkm_genres.json > tkm_genres.json
+curl -s https://raw.githubusercontent.com/cvbasta75/config_files/master/tkm_channels.json > tkm_channels.json
+curl -s https://raw.githubusercontent.com/cvbasta75/config_files/master/tkm_genres.json > tkm_genres.json
 
 # CONVERT JSON INTO XML: CHANNELS
 printf "\rConverting CHANNEL JSON file into XML format...      "
