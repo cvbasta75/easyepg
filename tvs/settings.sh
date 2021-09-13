@@ -165,7 +165,7 @@ do
 
     ######################################
     # Dirty Workaround until TVS fix their Channellist
-    curl -s https://raw.githubusercontent.com/sunsettrack4/config_files/master/chlist_hack_tvs.json > /tmp/chlist
+    curl -s https://raw.githubusercontent.com/cvbasta75/config_files/master/chlist_hack_tvs.json > /tmp/chlist
     #######################################
 
 		printf "\rLoading channel configuration..."
