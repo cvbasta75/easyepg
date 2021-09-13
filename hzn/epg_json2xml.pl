@@ -379,9 +379,9 @@ foreach my $attributes ( @attributes ) {
                                            elsif( defined $poster_location) {
                                                 print "  <icon src=\"" . $program->{'images'}[$poster_location]{'url'} . "\" />\n";
                                         }
-                                        if( defined $landscape_location) {
-                                                print "  <poster src=\"" . $program->{'images'}[$landscape_location]{'url'} . "\" />\n";
-                                        }
+                                        # if( defined $landscape_location) {
+                                        #         print "  <poster src=\"" . $program->{'images'}[$landscape_location]{'url'} . "\" />\n";
+                                        # }
                                 }
                         }
 			
