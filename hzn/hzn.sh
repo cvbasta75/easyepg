@@ -349,8 +349,8 @@ rm workfile chlist 2> /dev/null
 # DOWNLOAD CHANNEL LIST + RYTEC/EIT CONFIG FILES (JSON)
 printf "\rRetrieving channel list and config files...          "
 curl -s $baseurl/channels > chlist
-curl -s https://raw.githubusercontent.com/sunsettrack4/config_files/master/hzn_channels.json > hzn_channels.json
-curl -s https://raw.githubusercontent.com/sunsettrack4/config_files/master/hzn_genres.json > hzn_genres.json
+curl -s https://raw.githubusercontent.com/cvbasta75/config_files/master/hzn_channels.json > hzn_channels.json
+curl -s https://raw.githubusercontent.com/cvbasta75/config_files/master/hzn_genres.json > hzn_genres.json
 
 # CONVERT JSON INTO XML: CHANNELS
 printf "\rConverting CHANNEL JSON file into XML format...      "
