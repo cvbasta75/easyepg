@@ -276,7 +276,7 @@ foreach my $attributes ( @attributes ) {
 				if ( defined $genre1 ) {
 					if ( $setup_genre eq $enabled ) {
 						if ( defined $eit->{ $genre1 } ) {
-							print "  <category lang=\"$languageVER\">" . $eit->{ $genre1 } . "</category>\n";
+							print "  <category lang=\"en\">" . $eit->{ $genre1 } . "</category>\n";
 						} else {
 							print "  <category lang=\"$languageVER\">$genre1</category>\n";
 							print STDERR "[ EPG WARNING ] CATEGORY UNAVAILABLE IN EIT LIST: " . "$genre1" . "\n";;
@@ -290,7 +290,7 @@ foreach my $attributes ( @attributes ) {
 				if ( defined $genre1 ) {
 					if ( $setup_genre eq $enabled ) {
 						if ( defined $eit->{ $genre1 } ) {
-							print "  <category lang=\"$languageVER\">" . $eit->{ $genre1 } . "</category>\n";
+							print "  <category lang=\"en\">" . $eit->{ $genre1 } . "</category>\n";
 						} else {
 							print "  <category lang=\"$languageVER\">$genre1</category>\n";
 							print STDERR "[ EPG WARNING ] CATEGORY UNAVAILABLE IN EIT LIST: " . "$genre1" . "\n";;
@@ -300,7 +300,7 @@ foreach my $attributes ( @attributes ) {
 				if ( defined $genre2 ) {
 					if ( $setup_genre eq $enabled ) {
 						if ( defined $eit->{ $genre2 } ) {
-							print "  <category lang=\"$languageVER\">" . $eit->{ $genre2 } . "</category>\n";
+							print "  <category lang=\"en\">" . $eit->{ $genre2 } . "</category>\n";
 						} else {
 							print "  <category lang=\"$languageVER\">$genre2</category>\n";
 							print STDERR "[ EPG WARNING ] CATEGORY UNAVAILABLE IN EIT LIST: " . "$genre2" . "\n";;
@@ -310,7 +310,7 @@ foreach my $attributes ( @attributes ) {
 				if ( defined $genre3 ) {
 					if ( $setup_genre eq $enabled ) {
 						if ( defined $eit->{ $genre3 } ) {
-							print "  <category lang=\"$languageVER\">" . $eit->{ $genre3 } . "</category>\n";
+							print "  <category lang=\"en\">" . $eit->{ $genre3 } . "</category>\n";
 						} else {
 							print "  <category lang=\"$languageVER\">$genre3</category>\n";
 							print STDERR "[ EPG WARNING ] CATEGORY UNAVAILABLE IN EIT LIST: " . "$genre3" . "\n";;
