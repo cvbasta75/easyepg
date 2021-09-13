@@ -269,7 +269,7 @@ foreach my $attributes ( @attributes ) {
 				$genre =~ s/\&/\&amp;/g;
 				if ( $setup_genre eq $enabled ) {
 					if ( defined $eit->{ $genre } ) {
-						print "  <category lang=\"$languageVER\">" . $eit->{ $genre } . "</category>\n";
+						print "  <category lang=\"en\">" . $eit->{ $genre } . "</category>\n";
 					} else {
 						print "  <category lang=\"$languageVER\">$genre</category>\n";
 						print STDERR "[ EPG WARNING ] CATEGORY UNAVAILABLE IN EIT LIST " . "$genre" . "\n";;
