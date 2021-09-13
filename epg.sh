@@ -3086,7 +3086,7 @@ do
 		clear
 		
 		rm -rf easyepg 2> /dev/null
-		git clone https://github.com/sunsettrack4/easyepg
+		git clone https://github.com/cvbasta75/easyepg
 		
 		if [ -e easyepg/update.sh ]
 		then
